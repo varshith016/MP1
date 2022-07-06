@@ -6,3 +6,4 @@ ip = st.text_input('Enter the food name')
 op = model.predict([ip])
 if st.button('Go'):
   st.title(op[0])
+                 
